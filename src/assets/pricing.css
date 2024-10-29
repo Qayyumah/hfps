@@ -1,0 +1,39 @@
+.price-head-text{
+    text-align: center;
+    padding-top: 50px;
+
+    h1{
+        font-size: 48px;
+        font-weight: 800;
+        margin-bottom: 0;
+        color: #fff;
+    }
+}
+
+.price-head-link{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 7px;
+    color: #fff;
+
+    a{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        text-decoration-line: none;
+        border-bottom: 1px solid #fff;
+        font-size: 18px;
+        gap: 2px;
+        color: #fff;
+    }
+    p{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        border-bottom: 1px solid #fff;
+        font-size: 18px;
+        gap: 2px;
+    }
+}
