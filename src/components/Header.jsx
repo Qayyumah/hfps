@@ -29,28 +29,28 @@ const BurgerNav = styled.div`
 `;
 
 const Header = () => {
-  const [isFixed, setIsFixed] = useState(false);
-  const [burgerStatus, setBurgerStatus] = useState(false); // State for burger menu
+  const [isFixed, setIsFixed] = useState(false)
+  const [burgerStatus, setBurgerStatus] = useState(false)
 
   const handleScroll = () => {
     const offset = window.scrollY;
     if (offset > 100) {
-      setIsFixed(true);
+      setIsFixed(true)
     } else {
-      setIsFixed(false);
+      setIsFixed(false)
     }
   };
 
   const toggleBurgerMenu = () => {
-    setBurgerStatus(!burgerStatus); // Toggle burger menu visibility
+    setBurgerStatus(!burgerStatus)
   };
 
   useEffect(() => {
-    window.addEventListener('scroll', handleScroll);
+    window.addEventListener('scroll', handleScroll)
     return () => {
-      window.removeEventListener('scroll', handleScroll);
-    };
-  }, []);
+      window.removeEventListener('scroll', handleScroll)
+    }
+  }, [])
 
   return (
     <header>
