@@ -146,7 +146,7 @@ const About = () => {
 
                     <div className='offer2'>
                         <div className='offer2-head'>
-                            <h1>Welcome to Kiddid Learning School</h1>
+                            <h1>Welcome to His Favour Private School</h1>
                         </div>
                         <p>
                             On her way she met a copy. The copy warned the Little Blind Text, 
