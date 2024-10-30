@@ -115,10 +115,10 @@ const Header = () => {
           About
         </Link>
         <Link to='/course' onClick={() => setBurgerStatus(false)}>
-          Courses
+          Classes
         </Link>
         <Link to='/price' onClick={() => setBurgerStatus(false)}>
-          Pricing
+          Fees
         </Link>
         <Link to='/contact' onClick={() => setBurgerStatus(false)}>
           Contact
