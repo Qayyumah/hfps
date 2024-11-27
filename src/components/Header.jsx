@@ -56,33 +56,52 @@ const Header = () => {
     <header>
       <div className='heading1'>
         <div className='heading-text'>
-          <div className='icon-map'>
-            <MdMap style={{ width: "30px", height: "25px" }} />
+          {/* <div className='icon-map'> */}
+          <div className='header-logo'>
+            <img
+              style={{
+                width: "60px",
+                height: "60px",
+              }}
+              src='/images/logo.jpg'
+            />
           </div>
-          <div className='map-text'>
-            <p>1, Ikishe Road, Igbile-Ijebu, Ogun state.</p>
+          {/* </div> */}
+          <div className='title'>
+            <p>His Favour Private School</p>
           </div>
         </div>
-        <div className='heading-text'>
-          <div className='icon-paper'>
-            <IoMdPaperPlane style={{ width: "30px", height: "25px" }} />
+
+        <div className="heading1">
+          <div className='heading-text'>
+            <div className='icon-map'>
+              <MdMap style={{ width: "20px", height: "15px" }} />
+            </div>
+            <div className='map-text'>
+              <p>1, Ikishe Road, Igbile-Ijebu, Ogun state.</p>
+            </div>
           </div>
-          <div className='map-text'>
-            <p>youremail@email.com</p>
+          <div className='heading-text'>
+            <div className='icon-paper'>
+              <IoMdPaperPlane style={{ width: "20px", height: "15px" }} />
+            </div>
+            <div className='map-text'>
+              <p>youremail@email.com</p>
+            </div>
           </div>
-        </div>
-        <div className='heading-text'>
-          <div className='icon-phone'>
-            <MdPhone style={{ width: "30px", height: "25px" }} />
-          </div>
-          <div className='map-text'>
-            <p>+234 805 525 9967</p>
+          <div className='heading-text'>
+            <div className='icon-phone'>
+              <MdPhone style={{ width: "20px", height: "15px" }} />
+            </div>
+            <div className='map-text'>
+              <p>+234 805 525 9967</p>
+            </div>
           </div>
         </div>
       </div>
 
       <div className={`heading-2 ${isFixed ? "fixed" : ""}`}>
-        <div className='header-logo'>
+        {/* <div className='header-logo'>
           <img
             style={{
               width: "40px",
@@ -90,7 +109,7 @@ const Header = () => {
             }}
             src='/images/logo.jpg'
           />
-        </div>
+        </div> */}
         <div className='nav-menu'>
           <Link to='/'>Home</Link>
           <Link to='/#'>About</Link>
