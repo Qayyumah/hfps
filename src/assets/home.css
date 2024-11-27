@@ -64,12 +64,12 @@
     background-color: #1eaaf1;
     text-align: center;
     z-index: 1;
-    height: 260px;
+    height: 350px;
     padding: 15px;
 
     @media(max-width:600px){
         padding: 30px;
-        height: 300px;
+        height: 400px;
     }
     
     .ico{
@@ -81,6 +81,7 @@
         padding: 0 25px;
         line-height: 2em;
         color: #fff;
+        padding-bottom: 50px;
 
         h3{
             margin-bottom: 0;
@@ -95,12 +96,12 @@
     background-color: #8cc152;
     text-align: center;
     z-index: 1;
-    height: 260px;
+    height: 350px;
     padding: 15px;
 
     @media(max-width:600px){
         padding: 30px;
-        height: 300px;
+        height: 400px;
     }
 
     .ico{
@@ -126,12 +127,12 @@
     background-color: #5d50c6;
     text-align: center;
     z-index: 1;
-    height: 260px;
+    height: 350px;
     padding: 15px;
 
     @media(max-width:600px){
         padding: 30px;
-        height: 300px;
+        height: 400px;
     }
 
     .ico{
@@ -158,12 +159,12 @@
     background-color: #f1453d;
     text-align: center;
     z-index: 1;
-    height: 260px;
+    height: 350px;
     padding: 15px;
 
     @media(max-width:600px){
         padding: 30px;
-        height: 300px;
+        height: 400px;
     }
     
 
@@ -203,7 +204,7 @@
 
     @media(max-width: 600px){
         display: flex;
-        flex-direction: column-reverse;
+        flex-direction: column;
         gap: 0;
     }
 }
@@ -344,6 +345,7 @@
         padding: 0px;
         padding-top: 0;
         gap: 0;
+        text-align: center;
     }
 
     h1{
