@@ -54,7 +54,7 @@ const Header = () => {
 
   return (
     <header>
-      <div className='heading1'>
+      <div className='heading1 head'>
         <div className='heading-text'>
           {/* <div className='icon-map'> */}
           <div className='header-logo'>
