@@ -325,7 +325,7 @@ const MainContainer = () => {
           </div>
         </div>
 
-        {/* <div className='courses'>
+        <div className='courses'>
                 <div className='course-head'>
                     <h1 style={{color:'#5d50c6'}}>Our <span style={{color:'orange'}}> Courses</span></h1>
                     <p>Separated they live in. A small river named Duden flows 
@@ -612,9 +612,9 @@ const MainContainer = () => {
                     backgroundRepeat:'no-repeat',
                 }}>
                 </div>
-            </div> */}
+            </div>
       </div>
-      {/* <Footer/> */}
+      <Footer/>
     </div>
   );
 };
