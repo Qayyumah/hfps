@@ -9,7 +9,6 @@ import "../assets/home.css";
 import {
   MdCheckCircleOutline,
   MdChromeReaderMode,
-  MdPerson,
   MdPerson2,
 } from "react-icons/md";
 import About from "./About";
@@ -172,29 +171,29 @@ const MainContainer = () => {
                   all aspects of life. Here’s what you can expect from us:
                 </p>
               </div>
-              
+
               <div className='offer-list'>
-              <div className='lists'>
-                <MdCheckCircleOutline
-                  style={{
-                    backgroundColor: "blue",
-                    width: "20px",
-                    marginTop: "-50px",
-                    height: "10px",
-                    padding: "30px",
-                    borderRadius: "100%",
-                  }}
-                />
-                <div className='list-text'>
-                  <h4>Safety First</h4>
-                  <p>
-                    The safety and well-being of our students are our top
-                    priorities. We are committed to providing a secure learning
-                    environment where students can thrive both academically and
-                    personally.
-                  </p>
+                <div className='lists'>
+                  <MdCheckCircleOutline
+                    style={{
+                      backgroundColor: "blue",
+                      width: "20px",
+                      marginTop: "-50px",
+                      height: "10px",
+                      padding: "30px",
+                      borderRadius: "100%",
+                    }}
+                  />
+                  <div className='list-text'>
+                    <h4>Safety First</h4>
+                    <p>
+                      The safety and well-being of our students are our top
+                      priorities. We are committed to providing a secure
+                      learning environment where students can thrive both
+                      academically and personally.
+                    </p>
+                  </div>
                 </div>
-              </div>
                 <div className='lists'>
                   <MdCheckCircleOutline
                     style={{
@@ -307,314 +306,337 @@ const MainContainer = () => {
             }}
           >
             <div className='manners-text'>
-              <div className='text-text'>
-                <h1>Build A Brighter Future For Your Child</h1>
-                <a>Enrol your child</a>
-              </div>
-              <p>
-                We are committed to providing an enriching educational
-              </p>
-              <p>
-                experience that fosters growth, curiosity, and success.
-              </p>
+              <h1>Build A Brighter Future For Your Child</h1>
+              <p>We are committed to providing an enriching educational</p>
+              <p>experience that fosters growth, curiosity, and success.</p>
               {/* <p>
                 It is a paradisematic country, in which roasted parts of
                 sentences fly into your mouth.
               </p> */}
+              <div className='text-text'>
+                <a>Enrol your child</a>
+              </div>
             </div>
           </div>
         </div>
 
         <div className='courses'>
-                <div className='course-head'>
-                    <h1 style={{color:'#5d50c6'}}>Our <span style={{color:'orange'}}> Courses</span></h1>
-                    <p>Separated they live in. A small river named Duden flows 
-                    by their place and supplies it with the </p>
-                    <p>necessary regelialia.It is a paradisematic country</p>
-                </div>
-                <div className='course-box'>
-                    <div className='course-flex'>
-                        <div style={{
-                            backgroundImage:'url(/images/course-1.jpg)',
-                            backgroundSize: 'cover',
-                            backgroundPosition:'center center',
-                            margin:'0',
-                            width:'250px',
-                            height:'280px',
-                            backgroundRepeat:'no-repeat',
-                        }}>
-                        </div>
-                        
-                        <div className='course-text'>
-                            <h1>Arts Lesson</h1>
-                            <p style={{color:'orange'}}>Class time: <span style={{color:'#000'}}>9:00am - 10am</span></p>
-                            <p>Separated they live in. A small river named Duden flows 
-                            by their place and supplies it with the necessary regelialia. 
-                            It is a paradisematic country</p>
-                        </div>
-                        
-                    </div>
+          <div className='course-head'>
+            <h1 style={{ color: "#5d50c6" }}>
+              Our <span style={{ color: "orange" }}> Classes</span>
+            </h1>
+            <p>
+              Discover a world of learning at HFPS! Our classes are designed to
+              inspire curiosity, foster creativity, and build strong foundations
+              for academic success. Whether you're exploring sciences, arts, or
+              extracurricular activities, there's something for every student to
+              thrive and shine.
+            </p>
+          </div>
+          <div className='course-box'>
+            <div className='course-flex'>
+              <div
+                style={{
+                  backgroundImage: "url(/images/course-2.jpg)",
+                  backgroundSize: "cover",
+                  backgroundPosition: "center center",
+                  margin: "0",
+                  width: "250px",
+                  height: "280px",
+                  backgroundRepeat: "no-repeat",
+                  borderRadius: "20px"
+                }}
+              ></div>
 
-                    <div className='course-flex'>
-                        <div style={{
-                            backgroundImage:'url(/images/course-2.jpg)',
-                            backgroundSize: 'cover',
-                            backgroundPosition:'center center',
-                            margin:'0',
-                            width:'250px',
-                            height:'280px',
-                            backgroundRepeat:'no-repeat',
-                        }}>
-                        </div>
-                        
-                        <div className='course-text'>
-                            <h1>Language Lesson</h1>
-                            <p style={{color:'orange'}}>Class time: <span style={{color:'#000'}}>9:00am - 10am</span></p>
-                            <p>Separated they live in. A small river named Duden flows 
-                            by their place and supplies it with the necessary regelialia. 
-                            It is a paradisematic country</p>
-                        </div>
-                        
-                    </div>
-
-                    <div className='course-flex'>
-                        <div style={{
-                            backgroundImage:'url(/images/course-3.jpg)',
-                            backgroundSize: 'cover',
-                            backgroundPosition:'center center',
-                            margin:'0',
-                            width:'250px',
-                            height:'280px',
-                            backgroundRepeat:'no-repeat',
-                        }}>
-                        </div>
-                        
-                        <div className='course-text'>
-                            <h1>Music Lesson</h1>
-                            <p style={{color:'orange'}}>Class time: <span style={{color:'#000'}}>9:00am - 10am</span></p>
-                            <p>Separated they live in. A small river named Duden flows 
-                            by their place and supplies it with the necessary regelialia. 
-                            It is a paradisematic country</p>
-                        </div>
-                    
-                    </div>
-
-                    <div className='course-flex'>
-                        <div style={{
-                            backgroundImage:'url(/images/course-4.jpg)',
-                            backgroundSize: 'cover',
-                            backgroundPosition:'center center',
-                            margin:'0',
-                            width:'250px',
-                            height:'280px',
-                            backgroundRepeat:'no-repeat',
-                        }}>
-                        </div>
-                    
-                        <div className='course-text'>
-                            <h1>Sports Lesson</h1>
-                            <p style={{color:'orange'}}>Class time: <span style={{color:'#000'}}>9:00am - 10am</span></p>
-                            <p>Separated they live in. A small river named Duden flows 
-                            by their place and supplies it with the necessary regelialia. 
-                            It is a paradisematic country</p>
-                        </div>
-                    </div>
-                </div>
+              <div className='course-text'>
+                <h1>Early Childhood Education (Nursery)</h1>
+                <p style={{ color: "#000" }}>
+                  Building Foundations for Learning
+                </p>
+                <p>
+                  Our nursery program focuses on creating a safe, nurturing
+                  environment where children develop social skills, creativity,
+                  and basic literacy and numeracy. Activities are designed to
+                  stimulate curiosity and build a love for learning.
+                </p>
+              </div>
             </div>
 
-            <div className='experience'>
-                <div style={{
-                    backgroundImage:'url(/images/bg_4.jpg)',
-                    backgroundSize: 'cover',
-                    backgroundPosition:'50% -138.1px',
-                    margin:'0',
-                    height:'480px',
-                    paddingBottom:'50px',
-                    backgroundRepeat:'no-repeat',
-                }}>
-                <div className='experience-box'>
-                    <div className='exp1'>
-                        <h1>20 Years of<span style={{color:'#000'}}> Experience</span></h1>
-                        <p>Separated they live in. A small river named Duden flows by their place 
-                        and supplies it with the</p><p> necessary regelialia. It is a paradisematic country</p>
-                    </div>
-                    <div className='exp2'>
-                        <div className='num-exp'>
-                            <p>18</p>
-                            <span>Certified Teachers</span>
-                        </div>
+            <div className='course-flex'>
+              <div
+                style={{
+                  backgroundImage: "url(/images/course-3.jpg)",
+                  backgroundSize: "cover",
+                  backgroundPosition: "center center",
+                  margin: "0",
+                  width: "250px",
+                  height: "280px",
+                  backgroundRepeat: "no-repeat",
+                  borderRadius: "20px"
+                }}
+              ></div>
 
-                        <div className='num-exp'>
-                            <p>351</p>
-                            <span>Successful Kids</span>
-                        </div>
-
-                        <div className='num-exp'>
-                            <p>564</p>
-                            <span>Happy Parents</span>
-                        </div>
-
-                        <div className='num-exp'>
-                            <p>300</p>
-                            <span>Award Won</span>
-                        </div>
-                    </div>
-                </div>
-                </div>
+              <div className='course-text'>
+                <h1> ⁠Primary Education </h1>
+                <p style={{ color: "#000" }}>
+                  Laying Strong Academic Foundations
+                </p>
+                <p>
+                  Our primary school curriculum emphasizes critical thinking,
+                  communication, and foundational knowledge in core subjects
+                  like Mathematics, English, Basic Science, Social Studies, etc.
+                  Interactive teaching methods ensure students stay engaged and
+                  excited to learn.
+                </p>
+              </div>
             </div>
 
-            <div className='feedback'>
-                <div className='feed-head'>
-                    <h1 style={{color: '#5d50c6'}}>What Parents <span style={{color:'orange'}}>Say About Us</span></h1>
-                    <p>Separated they live in. A small river named Duden flows by their place and supplies it with the</p>
-                    <p>necessary regelialia. It is a paradisematic country</p>
+            <div className='course-flex'>
+              <div
+                style={{
+                  backgroundImage: "url(/images/course-4.jpg)",
+                  backgroundSize: "cover",
+                  backgroundPosition: "center center",
+                  margin: "0",
+                  width: "250px",
+                  height: "280px",
+                  backgroundRepeat: "no-repeat",
+                  borderRadius: "20px"
+                }}
+              ></div>
+
+              <div className='course-text'>
+                <h1> Extracurricular Activities </h1>
+                <p style={{ color: "#000" }}>Developing Comprehensive Skills</p>
+                <p>
+                  We believe in nurturing well-rounded individuals. Our
+                  extracurricular programs include sports, drama, debates,
+                  excursions, etc. Students can also participate in workshops to
+                  build essential life skills.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className='experience'>
+          <div
+            style={{
+              backgroundImage: "url(/images/bg_4.jpg)",
+              backgroundSize: "cover",
+              backgroundPosition: "50% -138.1px",
+              margin: "0",
+              height: "480px",
+              paddingBottom: "50px",
+              backgroundRepeat: "no-repeat",
+            }}
+          >
+            <div className='experience-box'>
+              <div className='exp1'>
+                <h1>
+                  15+ Years of<span style={{ color: "#000" }}> Excellence</span>
+                </h1>
+                <p>
+                With a legacy of quality education, we are commited to nurturing leaders and innovators for a brighter future.
+                </p>
+              </div>
+              <div className='exp2'>
+                <div className='num-exp'>
+                  <p>15+</p>
+                  <span>Certified Teachers</span>
                 </div>
 
-                <Feedback/>
-                
+                <div className='num-exp'>
+                  <p>100+</p>
+                  <span>Successful Kids</span>
+                </div>
+
+                <div className='num-exp'>
+                  <p>50+</p>
+                  <span>Happy Parents</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className='feedback'>
+          <div className='feed-head'>
+            <h1 style={{ color: "#5d50c6" }}>
+              What Parents <span style={{ color: "orange" }}>Say About Us</span>
+            </h1>
+            <p>
+              Separated they live in. A small river named Duden flows by their
+              place and supplies it with the
+            </p>
+            <p>necessary regelialia. It is a paradisematic country</p>
+          </div>
+
+          <Feedback />
+        </div>
+
+        {/* <div className='pricing'>
+          <div className='price-head'>
+            <h1 style={{ color: "#5d50c6" }}>
+              Our <span style={{ color: "orange" }}>Pricing</span>
+            </h1>
+            <p>
+              Separated they live in. A small river named Duden flows by their
+              place and supplies it with the
+            </p>
+            <p>necessary regelialia. It is a paradisematic country</p>
+          </div>
+
+          <div className='price-box'>
+            <div className='price1'>
+              <h3>Basic</h3>
+              <h4 style={{ color: "#1eaaf1" }}>
+                $24.50 <sub>/ 5mos</sub>{" "}
+              </h4>
+              <div
+                style={{
+                  backgroundImage: "url(/images/bg_1.jpg)",
+                  backgroundSize: "cover",
+                  backgroundPosition: "top center",
+                  margin: "0",
+                  width: "100%",
+                  height: "150px",
+                  backgroundRepeat: "no-repeat",
+                }}
+              ></div>
+              <p>
+                Far far away, behind the word mountains, far from the countries
+                Vokalia and Consonantia, there live the blind texts.
+              </p>
+
+              <a>Take a Course</a>
             </div>
 
-            <div className='pricing'>
-                <div className='price-head'>
-                    <h1 style={{color: '#5d50c6'}}>Our <span style={{color:'orange'}}>Pricing</span></h1>
-                    <p>Separated they live in. A small river named Duden flows by their place and supplies it with the</p>
-                    <p>necessary regelialia. It is a paradisematic country</p>
-                </div>
+            <div className='price2'>
+              <h3>Standard</h3>
+              <h4 style={{ color: "#1eaaf1" }}>
+                $24.50 <sub>/ 5mos</sub>{" "}
+              </h4>
+              <div
+                style={{
+                  backgroundImage: "url(/images/bg_2.jpg)",
+                  backgroundSize: "cover",
+                  backgroundPosition: "top center",
+                  margin: "0",
+                  width: "100%",
+                  height: "150px",
+                  backgroundRepeat: "no-repeat",
+                }}
+              ></div>
+              <p>
+                Far far away, behind the word mountains, far from the countries
+                Vokalia and Consonantia, there live the blind texts.
+              </p>
 
-                <div className='price-box'>
-                    <div className='price1'>
-                        <h3>Basic</h3>
-                        <h4 style={{color: '#1eaaf1'}}>$24.50 <sub>/ 5mos</sub> </h4>
-                        <div style={{
-                            backgroundImage:'url(/images/bg_1.jpg)',
-                            backgroundSize: 'cover',
-                            backgroundPosition:'top center',
-                            margin:'0',
-                            width:'100%',
-                            height:'150px',
-                            backgroundRepeat:'no-repeat',
-                        }}>
-                        </div>
-                        <p>
-                            Far far away, behind the word mountains, far from the 
-                            countries Vokalia and Consonantia, there live the blind texts.
-                        </p>
-
-                        <a>Take a Course</a>
-                    </div>
-
-                    <div className='price2'>
-                        <h3>Standard</h3>
-                        <h4 style={{color: '#1eaaf1'}}>$24.50 <sub>/ 5mos</sub> </h4>
-                        <div style={{
-                            backgroundImage:'url(/images/bg_2.jpg)',
-                            backgroundSize: 'cover',
-                            backgroundPosition:'top center',
-                            margin:'0',
-                            width:'100%',
-                            height:'150px',
-                            backgroundRepeat:'no-repeat',
-                        }}>
-                        </div>
-                        <p>
-                            Far far away, behind the word mountains, far from the 
-                            countries Vokalia and Consonantia, there live the blind texts.
-                        </p>
-
-                        <a>Take a Course</a>
-                    </div>
-
-                    <div className='price3'>
-                        <h3>Premium</h3>
-                        <h4 style={{color: '#1eaaf1'}}>$24.50 <sub>/ 5mos</sub> </h4>
-                        <div style={{
-                            backgroundImage:'url(/images/course-3.jpg)',
-                            backgroundSize: 'cover',
-                            backgroundPosition:'top center',
-                            margin:'0',
-                            width:'100%',
-                            height:'150px',
-                            backgroundRepeat:'no-repeat',
-                        }}>
-                        </div>
-                        <p>
-                            Far far away, behind the word mountains, far from the 
-                            countries Vokalia and Consonantia, there live the blind texts.
-                        </p>
-
-                        <a>Take a Course</a>
-                    </div>
-
-                    <div className='price4'>
-                        <h3>Platinum</h3>
-                        <h4 style={{color: '#1eaaf1'}}>$24.50 <sub>/ 5mos</sub> </h4>
-                        <div style={{
-                            backgroundImage:'url(/images/teacher-1.jpg)',
-                            backgroundSize: 'cover',
-                            backgroundPosition:'top center',
-                            margin:'0',
-                            width:'100%',
-                            height:'150px',
-                            backgroundRepeat:'no-repeat',
-                        }}>
-                        </div>
-                        <p>
-                            Far far away, behind the word mountains, far from the 
-                            countries Vokalia and Consonantia, there live the blind texts.
-                        </p>
-
-                        <a>Take a Course</a>
-                    </div>
-                </div>
+              <a>Take a Course</a>
             </div>
 
-            <div className='grid-pics'>
-                <div style={{
-                    backgroundImage:'url(/images/course-1.jpg)',
-                    backgroundSize: 'cover',
-                    backgroundPosition:'top center',
-                    margin:'0',
-                    width:'100%',
-                    height:'280px',
-                    backgroundRepeat:'no-repeat',
-                }}>
-                </div>
+            <div className='price3'>
+              <h3>Premium</h3>
+              <h4 style={{ color: "#1eaaf1" }}>
+                $24.50 <sub>/ 5mos</sub>{" "}
+              </h4>
+              <div
+                style={{
+                  backgroundImage: "url(/images/course-3.jpg)",
+                  backgroundSize: "cover",
+                  backgroundPosition: "top center",
+                  margin: "0",
+                  width: "100%",
+                  height: "150px",
+                  backgroundRepeat: "no-repeat",
+                }}
+              ></div>
+              <p>
+                Far far away, behind the word mountains, far from the countries
+                Vokalia and Consonantia, there live the blind texts.
+              </p>
 
-                <div style={{
-                    backgroundImage:'url(/images/image_2.jpg)',
-                    backgroundSize: 'cover',
-                    backgroundPosition:'top center',
-                    margin:'0',
-                    width:'100%',
-                    height:'280px',
-                    backgroundRepeat:'no-repeat',
-                }}>
-                </div>
-
-                <div style={{
-                    backgroundImage:'url(/images/image_3.jpg)',
-                    backgroundSize: 'cover',
-                    backgroundPosition:'top center',
-                    margin:'0',
-                    width:'100%',
-                    height:'280px',
-                    backgroundRepeat:'no-repeat',
-                }}>
-                </div>
-
-                <div style={{
-                    backgroundImage:'url(/images/image_4.jpg)',
-                    backgroundSize: 'cover',
-                    backgroundPosition:'top center',
-                    margin:'0',
-                    width:'100%',
-                    height:'280px',
-                    backgroundRepeat:'no-repeat',
-                }}>
-                </div>
+              <a>Take a Course</a>
             </div>
+
+            <div className='price4'>
+              <h3>Platinum</h3>
+              <h4 style={{ color: "#1eaaf1" }}>
+                $24.50 <sub>/ 5mos</sub>{" "}
+              </h4>
+              <div
+                style={{
+                  backgroundImage: "url(/images/teacher-1.jpg)",
+                  backgroundSize: "cover",
+                  backgroundPosition: "top center",
+                  margin: "0",
+                  width: "100%",
+                  height: "150px",
+                  backgroundRepeat: "no-repeat",
+                }}
+              ></div>
+              <p>
+                Far far away, behind the word mountains, far from the countries
+                Vokalia and Consonantia, there live the blind texts.
+              </p>
+
+              <a>Take a Course</a>
+            </div>
+          </div>
+        </div> */}
+
+        <div className='grid-pics'>
+          <div
+            style={{
+              backgroundImage: "url(/images/course-1.jpg)",
+              backgroundSize: "cover",
+              backgroundPosition: "top center",
+              margin: "0",
+              width: "100%",
+              height: "280px",
+              backgroundRepeat: "no-repeat",
+            }}
+          ></div>
+
+          <div
+            style={{
+              backgroundImage: "url(/images/image_2.jpg)",
+              backgroundSize: "cover",
+              backgroundPosition: "top center",
+              margin: "0",
+              width: "100%",
+              height: "280px",
+              backgroundRepeat: "no-repeat",
+            }}
+          ></div>
+
+          <div
+            style={{
+              backgroundImage: "url(/images/image_3.jpg)",
+              backgroundSize: "cover",
+              backgroundPosition: "top center",
+              margin: "0",
+              width: "100%",
+              height: "280px",
+              backgroundRepeat: "no-repeat",
+            }}
+          ></div>
+
+          <div
+            style={{
+              backgroundImage: "url(/images/image_4.jpg)",
+              backgroundSize: "cover",
+              backgroundPosition: "top center",
+              margin: "0",
+              width: "100%",
+              height: "280px",
+              backgroundRepeat: "no-repeat",
+            }}
+          ></div>
+        </div>
       </div>
-      <Footer/>
+      <Footer />
     </div>
   );
 };
