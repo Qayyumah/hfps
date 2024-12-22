@@ -76,7 +76,7 @@ const Header = () => {
           <Link to='/'>Home</Link>
           <Link to='/#'>About</Link>
           <Link to='/#'>Classes</Link>
-          <Link to='/#'>Fees</Link>
+          <Link to='/#'>Gallery</Link>
           <Link to='/#'>Contact</Link>
         </div>
 
@@ -105,23 +105,25 @@ const Header = () => {
         <div className='heading1'></div>
       </div>
 
-      <BurgerNav show={burgerStatus}>
-        <Link to='/' onClick={() => setBurgerStatus(false)}>
-          Home
-        </Link>
-        <Link to='/about' onClick={() => setBurgerStatus(false)}>
-          About
-        </Link>
-        <Link to='/course' onClick={() => setBurgerStatus(false)}>
-          Classes
-        </Link>
-        <Link to='/price' onClick={() => setBurgerStatus(false)}>
-          Fees
-        </Link>
-        <Link to='/contact' onClick={() => setBurgerStatus(false)}>
-          Contact
-        </Link>
-      </BurgerNav>
+      <div className={`${isFixed ? "fixed" : ""}`}>
+        <BurgerNav show={burgerStatus}>
+          <Link to='/' onClick={() => setBurgerStatus(false)}>
+            Home
+          </Link>
+          <Link to='/about' onClick={() => setBurgerStatus(false)}>
+            About
+          </Link>
+          <Link to='/course' onClick={() => setBurgerStatus(false)}>
+            Classes
+          </Link>
+          <Link to='/price' onClick={() => setBurgerStatus(false)}>
+            Gallery
+          </Link>
+          <Link to='/contact' onClick={() => setBurgerStatus(false)}>
+            Contact
+          </Link>
+        </BurgerNav>
+      </div>
     </header>
   );
 };

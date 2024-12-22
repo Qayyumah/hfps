@@ -39,35 +39,20 @@ const Courses = () => {
         </div>
 
         <div className='courses'>
-          <div className='course-boxx'>
-            <div className='course-flexx'>
-              <div
-                style={{
-                  backgroundImage: "url(/images/course-1.jpg)",
-                  backgroundSize: "cover",
-                  backgroundPosition: "center center",
-                  margin: "0",
-                  width: "250px",
-                  height: "280px",
-                  backgroundRepeat: "no-repeat",
-                }}
-              ></div>
-
-              <div className='course-text'>
-                <h1>Arts Lesson</h1>
-                <p style={{ color: "orange" }}>
-                  Class time:{" "}
-                  <span style={{ color: "#000" }}>9:00am - 10am</span>
-                </p>
-                <p>
-                  Separated they live in. A small river named Duden flows by
-                  their place and supplies it with the necessary regelialia. It
-                  is a paradisematic country
-                </p>
-              </div>
-            </div>
-
-            <div className='course-flexx'>
+          <div className='course-head'>
+            <h1 style={{ color: "#5d50c6" }}>
+              Our <span style={{ color: "orange" }}> Classes</span>
+            </h1>
+            <p>
+              Discover a world of learning at HFPS! Our classes are designed to
+              inspire curiosity, foster creativity, and build strong foundations
+              for academic success. Whether you're exploring sciences, arts, or
+              extracurricular activities, there's something for every student to
+              thrive and shine.
+            </p>
+          </div>
+          <div className='course-box'>
+            <div className='course-flex'>
               <div
                 style={{
                   backgroundImage: "url(/images/course-2.jpg)",
@@ -77,24 +62,25 @@ const Courses = () => {
                   width: "250px",
                   height: "280px",
                   backgroundRepeat: "no-repeat",
+                  borderRadius: "20px"
                 }}
               ></div>
 
               <div className='course-text'>
-                <h1>Language Lesson</h1>
-                <p style={{ color: "orange" }}>
-                  Class time:{" "}
-                  <span style={{ color: "#000" }}>9:00am - 10am</span>
+                <h1>Early Childhood Education (Nursery)</h1>
+                <p style={{ color: "#000" }}>
+                  Building Foundations for Learning
                 </p>
                 <p>
-                  Separated they live in. A small river named Duden flows by
-                  their place and supplies it with the necessary regelialia. It
-                  is a paradisematic country
+                  Our nursery program focuses on creating a safe, nurturing
+                  environment where children develop social skills, creativity,
+                  and basic literacy and numeracy. Activities are designed to
+                  stimulate curiosity and build a love for learning.
                 </p>
               </div>
             </div>
 
-            <div className='course-flexx'>
+            <div className='course-flex'>
               <div
                 style={{
                   backgroundImage: "url(/images/course-3.jpg)",
@@ -104,24 +90,26 @@ const Courses = () => {
                   width: "250px",
                   height: "280px",
                   backgroundRepeat: "no-repeat",
+                  borderRadius: "20px"
                 }}
               ></div>
 
               <div className='course-text'>
-                <h1>Music Lesson</h1>
-                <p style={{ color: "orange" }}>
-                  Class time:{" "}
-                  <span style={{ color: "#000" }}>9:00am - 10am</span>
+                <h1> ⁠Primary Education </h1>
+                <p style={{ color: "#000" }}>
+                  Laying Strong Academic Foundations
                 </p>
                 <p>
-                  Separated they live in. A small river named Duden flows by
-                  their place and supplies it with the necessary regelialia. It
-                  is a paradisematic country
+                  Our primary school curriculum emphasizes critical thinking,
+                  communication, and foundational knowledge in core subjects
+                  like Mathematics, English, Basic Science, Social Studies, etc.
+                  Interactive teaching methods ensure students stay engaged and
+                  excited to learn.
                 </p>
               </div>
             </div>
 
-            <div className='course-flexx'>
+            <div className='course-flex'>
               <div
                 style={{
                   backgroundImage: "url(/images/course-4.jpg)",
@@ -131,74 +119,46 @@ const Courses = () => {
                   width: "250px",
                   height: "280px",
                   backgroundRepeat: "no-repeat",
+                  borderRadius: "20px"
                 }}
               ></div>
 
               <div className='course-text'>
-                <h1>Sports Lesson</h1>
-                <p style={{ color: "orange" }}>
-                  Class time:{" "}
-                  <span style={{ color: "#000" }}>9:00am - 10am</span>
-                </p>
+                <h1> Extracurricular Activities </h1>
+                <p style={{ color: "#000" }}>Developing Comprehensive Skills</p>
                 <p>
-                  Separated they live in. A small river named Duden flows by
-                  their place and supplies it with the necessary regelialia. It
-                  is a paradisematic country
+                  We believe in nurturing well-rounded individuals. Our
+                  extracurricular programs include sports, drama, debates,
+                  excursions, etc. Students can also participate in workshops to
+                  build essential life skills.
                 </p>
               </div>
             </div>
-
-            <div className='course-flexx'>
-              <div
-                style={{
-                  backgroundImage: "url(/images/course-5.jpg.webp)",
-                  backgroundSize: "cover",
-                  backgroundPosition: "center center",
-                  margin: "0",
-                  width: "250px",
-                  height: "280px",
-                  backgroundRepeat: "no-repeat",
-                }}
-              ></div>
-
-              <div className='course-text'>
-                <h1>Study Lesson</h1>
-                <p style={{ color: "orange" }}>
-                  Class time:{" "}
-                  <span style={{ color: "#000" }}>9:00am - 10am</span>
-                </p>
-                <p>
-                  Separated they live in. A small river named Duden flows by
-                  their place and supplies it with the necessary regelialia. It
-                  is a paradisematic country
-                </p>
-              </div>
-            </div>
-
-            <div className='course-flexx'>
-              <div
-                style={{
-                  backgroundImage: "url(/images/course-6.jpg.webp)",
-                  backgroundSize: "cover",
-                  backgroundPosition: "center center",
-                  margin: "0",
-                  width: "250px",
-                  height: "280px",
-                  backgroundRepeat: "no-repeat",
-                }}
-              ></div>
-
-              <div className='course-text'>
-                <h1>Experiment Lesson</h1>
-                <p style={{ color: "orange" }}>
-                  Class time:{" "}
-                  <span style={{ color: "#000" }}>9:00am - 10am</span>
-                </p>
-                <p>
-                  Separated they live in. A small river named Duden flows by
-                  their place and supplies it with the necessary regelialia. It
-                  is a paradisematic country
-                </p>
+          </div>
+        </div>
+        <div className='manners'>
+          <div
+            style={{
+              backgroundImage:
+                "linear-gradient(to right, rgba(0, 0, 0, 0.602), rgba(0, 0, 0, 0.729)), url(/images/bg_3.jpg)",
+              backgroundSize: "cover",
+              backgroundPosition: "top",
+              margin: "0",
+              height: "300px",
+              padding: "60px",
+              backgroundRepeat: "no-repeat",
+            }}
+          >
+            <div className='manners-text'>
+              <h1>Build A Brighter Future For Your Child</h1>
+              <p>We are committed to providing an enriching educational</p>
+              <p>experience that fosters growth, curiosity, and success.</p>
+              {/* <p>
+                It is a paradisematic country, in which roasted parts of
+                sentences fly into your mouth.
+              </p> */}
+              <div className='text-text'>
+                <a>Enrol your child</a>
               </div>
             </div>
           </div>

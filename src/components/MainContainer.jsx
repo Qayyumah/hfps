@@ -466,10 +466,8 @@ const MainContainer = () => {
               What Parents <span style={{ color: "orange" }}>Say About Us</span>
             </h1>
             <p>
-              Separated they live in. A small river named Duden flows by their
-              place and supplies it with the
+            At HFPS, we are proud of the positive impacts we’ve made on our students. Here’s what our parents have to say:
             </p>
-            <p>necessary regelialia. It is a paradisematic country</p>
           </div>
 
           <Feedback />
