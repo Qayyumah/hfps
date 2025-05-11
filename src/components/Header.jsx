@@ -74,10 +74,13 @@ const Header = () => {
         </div>
         <div className='nav-menu'>
           <Link to='/'>Home</Link>
-          <Link to='/#'>About</Link>
-          <Link to='/#'>Classes</Link>
-          <Link to='/#'>Gallery</Link>
-          <Link to='/#'>Contact</Link>
+          <Link to='/about'>About</Link>
+          <Link to='/course'>Classes</Link>
+          <Link to='/gallery'>Gallery</Link>
+          <Link to='/contact'>Contact</Link>
+          <Link to='https://hisfavourhighschool.vercel.app'>
+            Our high school
+          </Link>
         </div>
 
         <div className='burgernav'>
@@ -89,7 +92,8 @@ const Header = () => {
       <div className='heading1 head'>
         <div className='' style={{ textAlign: "center" }}>
           <div className='map-text'>
-            <p>1, Ikishe Road, Igbile-Ijebu, Ogun state.</p>
+            <p>Branch 1: 1, Ikishe Road, Igbile-Ijebu, Ogun state.</p>
+            <p>Branch 2: Behind Bank, Omu, Ijebu ode, Ogun State.</p>
           </div>
         </div>
         <div className='' style={{ textAlign: "center" }}>
@@ -121,6 +125,13 @@ const Header = () => {
           </Link>
           <Link to='/contact' onClick={() => setBurgerStatus(false)}>
             Contact
+          </Link>
+
+          <Link
+            to='https://hisfavourhighschool.vercel.app'
+            onClick={() => setBurgerStatus(false)}
+          >
+            Our high school
           </Link>
         </BurgerNav>
       </div>

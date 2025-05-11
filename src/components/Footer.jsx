@@ -8,14 +8,11 @@ import {
   MdPerson,
   MdPhone,
 } from "react-icons/md";
-import {
-  TiSocialFacebook,
-  TiSocialInstagram,
-  TiSocialTwitter,
-} from "react-icons/ti";
 import "../assets/footer.css";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
+  const currentYear = new Date().getFullYear();
   return (
     <div>
       <footer>
@@ -27,10 +24,8 @@ const Footer = () => {
             <div className='q-display'>
               <IoMdMap style={{ fontSize: "20px" }} />
               <div className='q-text'>
-                <p >
-                  {" "}
-                  1, Ikishe Road, Igbile-Ijebu, Ogun state.
-                </p>
+                <p>Branch 1: 1, Ikishe Road, Igbile-Ijebu, Ogun state.</p>
+                <p>Branch 2: Behind Bank, Omu, Ijebu ode, Ogun State.</p>
               </div>
             </div>
 
@@ -73,39 +68,18 @@ const Footer = () => {
               <MdArrowForward />
               <a>Contact</a>
             </div>
+            <Link
+              style={{ color: "#f4f4f4" }}
+              to='https://hisfavourhighschool.vercel.app'
+            >
+              Our high school
+            </Link>
           </div>
 
-          <div className='sub-us'>
-            <div className='connect'>
-              <h1>Connect With Us</h1>
-              <div className='connect-ico'>
-                <div className='twitter'>
-                  <TiSocialTwitter
-                    style={{
-                      fontSize: "20px",
-                    }}
-                  />
-                </div>
-                <div className='fb'>
-                  <TiSocialFacebook
-                    style={{
-                      fontSize: "20px",
-                    }}
-                  />
-                </div>
-                <div className='insta'>
-                  <TiSocialInstagram
-                    style={{
-                      fontSize: "20px",
-                    }}
-                  />
-                </div>
-              </div>
-            </div>
-          </div>
+          <div className='sub-us'></div>
         </div>
-        <div className='foot-text' style={{marginTop:"40px"}}>
-          <p>© Copyright 2024 All rights reserved by RC</p>
+        <div className='foot-text' style={{ marginTop: "40px" }}>
+          <p>© Copyright {currentYear} All rights reserved by RC</p>
         </div>
       </footer>
     </div>

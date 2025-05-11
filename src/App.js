@@ -13,7 +13,7 @@ function App() {
           <Route exact path="/" element={<MainContainer/>}/>
           <Route exact path="/about" element={<About/>}/>
           <Route exact path="/course" element={<Courses/>}/>
-          <Route exact path="/price" element={<Pricing/>}/>
+          <Route exact path="/gallery" element={<Pricing/>}/>
           <Route exact path="/contact" element={<Contact/>}/>
         </Routes>
       </Router>

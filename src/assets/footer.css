@@ -8,7 +8,7 @@ footer{
 }
 .foot{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     color: #fff;
     margin-bottom: 10px;
 
@@ -35,6 +35,14 @@ footer{
 
 .q-text p{
     color: rgba(255, 255, 255, 0.7);
+}
+
+.links {
+    margin-left: 200px;
+
+    @media(max-width: 500px) {
+        margin-left: 0;
+    }
 }
 
 .blo-display{

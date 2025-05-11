@@ -227,20 +227,7 @@ const About = () => {
           </div>
         </div>
 
-        <div className='feedback'>
-          <div className='feed-head'>
-            <h4>TESTIMONIAL</h4>
-            <h1 style={{ color: "#5d50c6" }}>
-              What Parents <span style={{ color: "orange" }}>Say About Us</span>
-            </h1>
-            <p>
-              At HFPS, we are proud of the positive impacts we’ve made on our
-              students. Here’s what our parents have to say:
-            </p>
-          </div>
-
-          <Feedback />
-        </div>
+     
         <div className='manners'>
           <div
             style={{

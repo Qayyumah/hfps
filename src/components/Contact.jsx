@@ -48,7 +48,8 @@ const Contact = () => {
           <div className='contact-info-box'>
             <div className='con-info1'>
               <h1>Address</h1>
-              <p style={{ marginBottom: "0" }}>1, Ikishe Road, Igbile-Ijebu, Ogun state.</p>
+              <p>Branch 1: 1, Ikishe Road, Igbile-Ijebu, Ogun state.</p>
+              <p>Branch 2: Behind Bank, Omu, Ijebu ode, Ogun State.</p>
             </div>
 
             <div className='con-info1'>
